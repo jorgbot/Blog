@@ -1,28 +1,14 @@
-== README
+My first app:
+=====
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Blog made with Ruby on Rails, simple and easy to use, share :)
+My first application, still learning with the big boys.
 
-Things you may want to cover:
+```
+Version: 1.0
+```
+-------------
 
-* Ruby version
+Copyright, 2015 by [Jorge Botello](https://twitter.com/jorgbot)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+-------------

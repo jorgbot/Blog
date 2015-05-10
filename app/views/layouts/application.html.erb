@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Blog</title>
+  <title>Inicio | Blog</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= stylesheet_link_tag 'application', 'http://fonts.googleapis.com/css?family=Raleway:400,700' %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
@@ -16,13 +16,13 @@
 		</div>
 
 		<ul>
-			<li class="category">Website</li>
+			<li class="category">V 1.0</li>
 			<li><%= link_to "Blog", root_path %></li>
 			<li>Acerca</li>
 		</ul>
 
 		<ul>
-			<li class="category">Social</li>
+			<li class="category">Sigueme :)</li>
 			<li><a href="https://twitter.com/jorgbot">Twitter</a></li>
 			<li><a href="https://instagram.com/jorgbot">Instagram</a></li>
 			<li><a href="https://github.com/jorgbot">Github</a></li>
@@ -35,7 +35,7 @@
 		<div id="header">
 			<p>Todos los Articulos</p>
 			<div class="buttons">
-				<button class="button"><%= link_to "Nuevo Articulo", new_post_path %></button>
+				<%= link_to "Nuevo Articulo", new_post_path, :class => "button" %>
 				<button class="button">Salir</button>
 			</div>
 		</div>
