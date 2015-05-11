@@ -10,11 +10,11 @@ default: &default
   timeout: 5000
 
   adapter: postgresql
-  host: ec2-54-243-187-196.compute-1.amazonaws.com
+  host: ec2-184-73-253-4.compute-1.amazonaws.com
   encoding: unicode
-  database: dcmcpahlgnv7q
-  username: ycngjlpazdzecn
-  password: ipErh4wzmkDLsqp7G7-6QOcdlq
+  database: d9m7hp45mbrlt8
+  username: hhvwijfkpjekmt
+  password: 7DYZnIXvCE6_-aqGUQV5XHiKBS
 
 development:
   <<: *default
