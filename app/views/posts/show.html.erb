@@ -5,8 +5,10 @@
 
 	<p class="date">
 		Enviado <%= time_ago_in_words(@post.created_at) %> Ago
-		| <%= link_to 'Editar', edit_post_path(@post) %>
-		| <%= link_to 'Eliminar', post_path(@post), method: :delete, data: { confirm: 'Esta Seguro de borra este articulo?' } %>
+		<% if user_signed_in? %>
+			| <%= link_to 'Editar', edit_post_path(@post) %>
+			| <%= link_to 'Eliminar', post_path(@post), method: :delete, data: { confirm: 'Esta Seguro de borra este articulo?' } %>
+		<% end %>
 	</p>
 
 	<p class="body">
