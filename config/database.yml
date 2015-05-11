@@ -9,6 +9,13 @@ default: &default
   pool: 5
   timeout: 5000
 
+  adapter: postgresql
+  host: ec2-54-243-187-196.compute-1.amazonaws.com
+  encoding: unicode
+  database: dcmcpahlgnv7q
+  username: ycngjlpazdzecn
+  password: ipErh4wzmkDLsqp7G7-6QOcdlq
+
 development:
   <<: *default
   database: db/development.sqlite3
