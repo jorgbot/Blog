@@ -16,7 +16,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # gem adicionales
 gem 'rails_12factor', group: :production
-#gem 'unicorn' 
+gem 'unicorn' 
 # gem Usuario
 gem 'devise', '~> 3.4.1'
 
