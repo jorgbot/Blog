@@ -9,13 +9,13 @@ default: &default
   pool: 5
   timeout: 5000
 
-  adapter: postgresql
-  host: ec2-107-22-187-89.compute-1.amazonaws.com
-  Port: 5432
-  encoding: unicode
-  database: d6u0ov8uhilmhc
-  username: hfdzphpoiofohc
-  password: hW-MtXdM8UATEtIpIJUBHPS_EE
+  #adapter: postgresql
+  #host: ec2-107-22-187-89.compute-1.amazonaws.com
+  #Port: 5432
+  #encoding: unicode
+  #database: d6u0ov8uhilmhc
+  #username: hfdzphpoiofohc
+  #password: hW-MtXdM8UATEtIpIJUBHPS_EE
 
 development:
   <<: *default
